@@ -61,6 +61,7 @@ public class CipherMachine {
                 }
             }
         });
+        System.out.println();
         JButton btnEncrypt = new JButton("Encrypt");
         JButton btnDecrypt = new JButton("Decrypt");
         btnEncrypt.addActionListener(new ActionListener() {
